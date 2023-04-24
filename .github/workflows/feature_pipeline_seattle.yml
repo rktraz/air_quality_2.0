@@ -16,7 +16,6 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: '3.8'
-          working-directory: ./advanced_tutorials/air_quality/
           
       - name: install python packages
         run:
@@ -26,4 +25,4 @@ jobs:
         env: 
           HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
           CONTINENT: "Seattle"
-        run: python ./advanced_tutorials/air_quality/feature_pipeline.py
+        run: python ./feature_pipeline.py
