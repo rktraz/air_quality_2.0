@@ -19,7 +19,7 @@ import os
 continent = os.environ.get('CONTINENT')
 
 
-file_path = os.path.join(os.getcwd(), 'advanced_tutorials', 'air_quality', 'target_cities.json')
+file_path = "target_cities.json"
 with open(file_path) as json_file:
     target_cities = json.load(json_file)
 
