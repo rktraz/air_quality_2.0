@@ -1,4 +1,4 @@
-hopsworks
+hopsworks==3.0.*
 geopy
 pandas
 numpy
