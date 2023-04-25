@@ -5,3 +5,4 @@ numpy
 streamlit
 streamlit-folium
 joblib
+plotly
