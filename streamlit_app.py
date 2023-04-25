@@ -14,6 +14,8 @@ from streamlit_folium import st_folium
 from functions import *
 import features.air_quality
 
+from dotenv import load_dotenv
+load_dotenv()
 
 
 def print_fancy_header(text, font_size=22, color="#ff5f27"):
