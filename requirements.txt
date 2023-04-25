@@ -7,3 +7,7 @@ streamlit-folium
 joblib
 plotly
 python-dotenv
+xgboost
+matplotlib
+seaborn
+sklearn
