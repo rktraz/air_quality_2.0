@@ -10,4 +10,4 @@ python-dotenv
 xgboost
 matplotlib
 seaborn
-sklearn
+scikit-learn
